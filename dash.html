@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dash page</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.xyz/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"      />
+    <link rel="stylesheet" href="dash.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<style>
+    .brandGradient {
+        background: #34B0CF;
+        background: linear-gradient(to right, #34B0CF 58%, #2BCF78 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    #customTable th,
+    #customTable td {
+        padding: 0.5rem !important;
+
+    }
+</style>
+
+<body class="bg-light ">
+    <nav class="navbar navbar-dark navbar-expand-lg  bg-dark  ">
+        <div class="container-fluid">
+            <a class="navbar-brand gradient brandGradient" href="dash.html">EMS2.0</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="dash.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="employees.html">Employees</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="jobs.html">Jobs</a>
+                    </li>
+                </ul>
+                <form class="d-flex gap-3" role="search">
+                    <div class="input-group">
+                        <input type="text" class="form-control form-control-sm" placeholder="Search for...">
+                        <button class="btn btn-success btn-sm" type="button" id="button-addon2">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-search" viewBox="0 0 16 16">
+                                <path
+                                    d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z">
+                                </path>
+                            </svg>
+                        </button>
+                    </div>
+                    <div class="vr text-white"></div>
+                    <button class="btn btn-warning btn-sm" type="button" id="button-addon2"><a
+                            class="text-decoration-none text-dark" href="index.html">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-power" viewBox="0 0 16 16">
+                                <path d="M7.5 1v7h1V1h-1z"></path>
+                                <path
+                                    d="M3 8.812a4.999 4.999 0 0 1 2.578-4.375l-.485-.874A6 6 0 1 0 11 3.616l-.501.865A5 5 0 1 1 3 8.812z">
+                                </path>
+                            </svg>
+                        </a>
+                    </button>
+                </form>
+
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid mt-3">
+        <div class="row justify-content-center">
+            <div class="col-md-3">
+                <div class="card text-bg-primary mb-3 shadow text-center">
+                    <div class="card-header">Employees List</div>
+                    <div class="card-body">
+                        <label class="card-text fs-1">254+</label>
+
+                    </div>
+                    <div class="card-footer small px-0"> <a class="d-block text-decoration-none text-white " href="employees.html">Viwe all employees</a></div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card text-bg-primary mb-3 shadow text-center">
+                    <div class="card-header">Jobs</div>
+                    <div class="card-body">
+                        <label class="card-text fs-1">25+</label>
+
+                    </div>
+                    <div class="card-footer small px-0"> <a class="d-block text-decoration-none text-white " href="jobs.html">Viwe all
+                            jobs</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="../bootstrab/js/bootstrap.bundle.js"></script>
+
+
+</body>
+
+</html>
